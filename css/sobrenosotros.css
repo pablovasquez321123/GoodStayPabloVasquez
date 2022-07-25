@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    /* background-image: url(./../img/blurry-gradient-haikei.png); */
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: 100%;
+}
+.navbar {
+    background-image: url(./../img/istockphoto-1157026669-170667a.jpeg);
+    /* background-size: cover; */
+    background-position: center;
+}
+.navbar-brand {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar-brand-span {
+    letter-spacing: 5px;
+}
+.nav-link {
+    text-align: center;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.nright{
+    color: aliceblue;
+    padding: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.row{
+    margin-bottom: 30px;
+    background-image: url(./../img/istockphoto-1157026669-170667a.jpeg);
+    /* background-position: center; */
+    /* background-size: cover; */
+}
+.img1-contenedor{
+    background-image: url(./../img/hotel\ grey.jpg);
+    position: static;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+.img2-contenedor{
+    background-image: url(./../img/hotel\ hilton.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+.img3-contenedor{
+    background-image: url(./../img/hotel\ turtlebay.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+.nleft:hover{
+    transform: scale(1.02);
+    transition: 1.5s;
+}
+
+.pagination {
+    margin: 0;
+}
+/* prueba de color gradient inicio */
+.btn-grad-pagination {
+    background-image: linear-gradient(to right, #575329 0%, #23270b 51%, #200122 100%);
+    padding: 8px;
+    margin: 10px;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    display: block;
+    border: 0px;
+    letter-spacing: 10px;
+}
+.btn-grad-pagination:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+/* prueba de color gradient fin */
+h2{
+    color: aliceblue;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 50px;
+}
+.img-fluid{
+    height: 230px;
+    width: 500px;
+    border-radius: 10px;
+}
+.img-fluid:hover{
+    transform: scale(1.08);
+    transition: 1.5s;
+}
+.item{
+    border: 1px solid #343602;
+}
+.item h4{
+    color: aliceblue;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #a1a605;
+    border-radius: 10px;
+}
+.item p{
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+    text-align: center;
+
+}
+footer {
+    background-image: url(./../img/istockphoto-1157026669-170667a.jpeg);
+    background-position: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer h6 {
+    color: aliceblue;
+}
+footer .derechos {
+    text-align: center;
+}
+footer .autor{
+    padding-top: 5px;
+    padding-left: 10px;
+}
+footer .redes{
+    display: flex;
+    justify-content: center;
+    letter-spacing: 15px;
+    font-size: 25px;
+}
+.redes-iconos{
+    color: burlywood;
+}
+.redes-iconos:hover{
+    transform: translateY(-15px);
+    transition: all 1.5s;
+    color: aliceblue;
+}
+
+@media (max-width: 991px){
+    .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.145);
+    border-radius: 10px;
+    } 
+}
+@media (max-width: 767px){
+    .nleft:hover{
+        transform: none;
+        transition: none;
+    }
+    .img-fluid{
+        margin-left: 17%;
+    }
+    .img-fluid:hover{
+        transform: none;
+        transition: none;
+    }
+}
+@media (max-width: 676px){
+    .img-fluid{
+        margin-left: 13%;
+    }
+}
+@media (max-width: 630px){
+    .img-fluid{
+        margin-left: 10%;
+    }
+}
+@media (max-width: 576px) {
+    .img-fluid{
+        margin-left: 6%;
+    }
+}
+@media (max-width: 425px) {
+    .img1-contenedor{
+        height: 250px;
+    }
+    .img2-contenedor{
+        height: 250px;
+    }
+    .img3-contenedor{
+        height: 250px;
+    }
+    .img-fluid{
+        margin: 0%;
+        height: auto;
+        width: 100%;
+    }
+}
+    @media (max-width: 375px){
+        .img1-contenedor{
+        height: 280px;
+        } 
+        .img2-contenedor{
+        height: 280px;
+        } 
+        .img3-contenedor{
+        height: 280px;
+        } 
+        .img-fluid{
+        padding: 0;
+        margin: 0;
+        }
+    }
