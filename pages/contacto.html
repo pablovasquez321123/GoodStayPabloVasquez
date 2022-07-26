@@ -11,7 +11,7 @@
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./../css/contacto.css">
     <title>hawaii</title>
 </head>
 
@@ -19,15 +19,15 @@
     <!-- main inicio -->
     <main>
         <!-- navbar inicio -->
-        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!-- navbar inicio -->
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
             <!-- Brand -->
-            <a class="navbar-brand" href="#">Good <span class="navbar-brand-span">Stay</span></a>
+            <a class="navbar-brand col-8" href="#">Good <span class="navbar-brand-span">Stay</span></a>
 
             <!-- Toggler/collapsibe Button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <button class="navbar-toggler lg" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
             <!-- Navbar links -->
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav">
@@ -43,15 +43,64 @@
                 </ul>
             </div>
         </nav>
+
         <!-- navbar fin -->
+
         <!-- main inicio -->
         <main>
-
+            <!-- form inicio -->
+            <h1>Registrate!</h1>
+            <section class="container-fluid">
+                <div class="row">
+                    <fieldset>
+                <form method="post" class="form">
+                    <strong class="strong">Introduce tus datos y te contactaremos!</strong> <br>
+                    
+                    <form>
+                        <h4>Genero</h4> <br>
+                        <div class="Genero">Femenino<input type="radio" name="Genero" value="Femenino"></div>
+                        <div class="Genero">Masculino<input type="radio" name="Genero" value="Masculino"></div>
+                        <div class="Genero">No Definido<input type="radio" name="Genero" value="No Definido"></div>
+                    </form> <br>
+                    <form>
+                        <label for="nombre">Nombre:</label> <br>
+                        <input type="text" name="nombre" placeholder="Ingresa tu nombre">
+                    </form> <br>
+                    <form>
+                        <label for="apellido">Apellido:</label> <br>
+                        <input type="text" name="apellido" placeholder="Ingresa tu apellido" required="">
+                    </form> <br>
+                    <form>
+                        <label for="Email">Email:</label> <br>
+                        <input type="email" name="email" placeholder="Ingresa tu Email">
+                    </form> <br>
+                    <form>
+                        <p><strong class="p-strong">Viajaras en familia?</strong></p>
+                        <div class="Familia">si<input type="radio" name="Familia" value="si"></div>
+                        <div class="Familia">no<input type="radio" name="Familia" value="no"></div>
+                    </form> <br>
+                    <form class="oferta">
+                        <label for="Elije el hotel en el que pasaras tus vacaciones">Elije el hotel en el que pasaras tus vacaciones</label> <br>
+                        <select name="Elije el hotel en el que pasaras tus vacaciones">
+                            <option value="Hotel Grey">Hotel Grey</option>
+                            <option value="Hotel Hilton">Hotel Hilton</option>
+                            <option value="Hotel Turtlebay">Hotel Turtlebay</option>
+                        </select>
+                        </select>
+                    </form> <br>
+                    <form class="submit">
+                        <input type="submit">
+                    </form>
+            </form>
+        </fieldset>
+            </div>
+        </section>
+            <!-- form fin -->
         </main>
         <!-- main fin -->
 
         <!-- footer inicio -->
-        <!-- <footer>
+        <footer>
             <h6 class="autor">Autor: Pablo Vasquez</h6>
             <h6 class="derechos">Copyright© 2022 - Página creada por pablo_vz - Todos los derechos reservados</h6>
             <div class="redes">
@@ -62,7 +111,7 @@
                 <a href="https://www.youtube.com/" target="_blank" class="redes-iconos"><i
                         class="fa-brands fa-youtube"></i></a>
             </div>
-        </footer> -->
+        </footer>
         <!-- footer fin -->
 
 

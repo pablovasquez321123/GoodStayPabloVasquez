@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* text-shadow: 0 0 10px black; */
+}
+main {
+    /* background-image: url(./../img/blurry-gradient-haikei.png); */
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: 100%;
+    background-image: url(./../img/atardecer.jpg);
+}
+.navbar {
+    background-image: url(./../img/istockphoto-1157026669-170667a.jpeg);
+    /* background-size: cover; */
+    background-position: center;
+}
+.navbar-brand {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar-brand-span {
+    letter-spacing: 5px;
+}
+.nav-link {
+    text-align: center;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+    text-shadow: 0 0 10px black;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+.strong{
+    color: aliceblue;
+    margin-left: 20px;
+    text-shadow: 0 0 10px black;
+    font-size: 25px;
+}
+h4{
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 0 0 10px black;
+    margin-top: 20px;
+}
+.Genero{
+    color: aliceblue;
+    text-align: center;
+    display: inline-block;
+    margin-left: 40px;
+    text-shadow: 0 0 10px black;
+    
+}
+label{
+    color: aliceblue;
+    text-shadow: 0 0 10px black;
+    margin-left: 80px;
+}
+input{
+    text-align: center;
+    margin-left: 20px;
+}
+.p-strong{
+    color: aliceblue;
+    text-shadow: 0 0 10px black;
+    margin-left: 180px;
+}
+.Familia{
+    color: aliceblue;
+    text-shadow: 0 0 10px black;
+    text-align: center;
+}
+select{
+    margin-left: 180px;
+}
+.submit{
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-image: url(./../img/istockphoto-1157026669-170667a.jpeg);
+    background-position: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer h6 {
+    color: aliceblue;
+}
+footer .derechos {
+    text-align: center;
+}
+footer .autor{
+    padding-top: 5px;
+    padding-left: 10px;
+}
+footer .redes{
+    display: flex;
+    justify-content: center;
+    letter-spacing: 15px;
+    font-size: 25px;
+}
+.redes-iconos{
+    color: burlywood;
+}
+.redes-iconos:hover{
+    transform: translateY(-15px);
+    transition: all 1.5s;
+    color: aliceblue;
+}
+@media (max-width: 991px){
+    .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.145);
+    border-radius: 10px;
+    } 
+}
